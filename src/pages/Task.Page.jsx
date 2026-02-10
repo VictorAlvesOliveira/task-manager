@@ -14,7 +14,7 @@ function TaskPage(){
                 <ChevronLeftIcon />
             </button>
         </div>
-    <div className="w-[500px]  space-y-4 bg-slate-">
+    <div className="w-[500px] mx-auto space-y-4 bg-slate-">
         <div className = "flex justify-center relative mb-6">
 <button onClick={() => navigate(-1) } 
         className = "absolute left-0 top-0 botton-0 text-slate-100">
