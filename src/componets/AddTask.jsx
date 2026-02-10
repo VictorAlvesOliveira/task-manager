@@ -1,5 +1,6 @@
 import { useState } from "react";
 
+// eslint-disable-next-line react/prop-types
 function AddTask({ onAddTaskSubmit}) {
   const [title, setTitle] = useState("");
   const [description, setDescription] = useState("");

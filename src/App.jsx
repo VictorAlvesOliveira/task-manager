@@ -1,7 +1,7 @@
 import { useEffect, useState } from "react";
 import AddTask from "./componets/AddTask";
 import Tasks from "./componets/tasks";
-import { v4 as uuidv4, v4 } from "uuid";
+import { v4 } from "uuid";
 
 function App() {
   const [tasks, setTasks] = useState(
@@ -24,7 +24,7 @@ function App() {
 
       setTasks(data);
     };
-    fetchTasks();
+    //fetchTasks();
     
   }, []);
 
