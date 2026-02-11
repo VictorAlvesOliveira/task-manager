@@ -8,20 +8,15 @@ function TaskPage(){
     const description = searchParams.get('description');
     return(
        <div className ="w-screen h-screen bg-slate-500 p-6">
-        <div className = "flex justify-center relative">
-            <button onClick={() =>navigate(-1)}
-            className = "absolute left-0 top-0 botton-0 text-slate-100">
-                <ChevronLeftIcon />
-            </button>
-        </div>
+    
     <div className="w-[500px] mx-auto space-y-4 bg-slate-">
         <div className = "flex justify-center relative mb-6">
 <button onClick={() => navigate(-1) } 
-        className = "absolute left-0 top-0 botton-0 text-slate-100">
+        className = "absolute left-0 top-2 botton-0 text-slate-100">
                 <ChevronLeftIcon />
             </button>
       <h1 className="text-3xl text-slate-100 font-bold text-center">
-        detalhes da tarefa
+        Detalhes da Tarefa
         </h1>
         </div>
         <div className = "bg-slate-200 p-4 rounded-md">
